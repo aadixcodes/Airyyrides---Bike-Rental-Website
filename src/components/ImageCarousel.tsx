@@ -49,7 +49,7 @@ export function ImageCarousel() {
   };
 
   return (
-    <div className="relative py-16 overflow-hidden">
+    <div className="relative py-16 bg-gradient-to-b from-black to-[#090C14] overflow-hidden">
       <div className="flex items-center justify-center">
         <div className="relative w-full max-w-6xl h-[400px]">
           {getVisibleVehicles().map(({ id, image, name, position }) => (

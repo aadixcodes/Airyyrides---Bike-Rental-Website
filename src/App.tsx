@@ -6,10 +6,10 @@ import Benefits from './components/Benefits';
 import Testimonials from './components/Testimonials';
 import Contact from './components/Contact';
 import { ImageCarousel } from './components/ImageCarousel';
-
+// bg-gradient-to-b from-black to-[#090C14]
 function App() {
   return (
-    <div className="bg-gradient-to-b from-black to-[#090C14] min-h-screen">
+    <div className="bg-black min-h-screen">
       <Navbar />
       <Hero />
       <ImageCarousel />
