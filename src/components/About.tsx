@@ -1,5 +1,3 @@
-import React from 'react';
-
 const About = () => {
   return (
     <section id="about" className="py-20 bg-black">
@@ -8,12 +6,11 @@ const About = () => {
           <div className="relative">
             <div className="rounded-lg overflow-hidden">
               <img
-                src="https://images.unsplash.com/photo-1571068316344-75bc76f77890?auto=format&fit=crop&q=80"
-                alt="About AiRYYRIDES"
+                src="/Public/Assets/airyyridesoffice.jpg"
                 className="w-full h-[500px] object-cover"
               />
             </div>
-            <div className="absolute inset-0 bg-[#D1AB10]/10 rounded-lg backdrop-blur-[2px]" />
+            {/* <div className="absolute inset-0 bg-[#D1AB10]/10 rounded-lg backdrop-blur-[2px]" /> */}
           </div>
           
           <div className="space-y-6">
@@ -21,10 +18,10 @@ const About = () => {
               About <span className="text-[#D1AB10]">AiRYYRIDES</span>
             </h2>
             <p className="text-gray-300 text-lg">
-              Founded with a vision to revolutionize urban mobility, AiRYYRIDES brings you a premium bike rental experience that combines style, sustainability, and convenience.
+            We go beyond just providing bikes, we're dedicated to creating unforgettable experiences. Our commitment to sustainable urban mobility fuels our mission to offer a diverse fleet of meticulously maintained bikes, ensuring that AiRYY ride is not only smooth and safe but also packed with adventure. 
             </p>
             <p className="text-gray-300 text-lg">
-              Our fleet of meticulously maintained bikes caters to all riding styles and preferences, ensuring that every journey becomes a memorable experience.
+            Visit us at Bhawarkua, Indore, and embark on a journey with AiRYY that transforms your commute into a memorable adventure. Get ready to explore the city with ease, style, and a touch of excitement.
             </p>
             <div className="grid grid-cols-2 gap-6 mt-8">
               <div className="bg-black/50 p-4 rounded-lg backdrop-blur-md border border-[#D1AB10]/20">

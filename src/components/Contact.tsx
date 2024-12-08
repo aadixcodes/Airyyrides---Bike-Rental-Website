@@ -17,15 +17,15 @@ const Contact = () => {
             <div className="space-y-6">
               <div className="flex items-center">
                 <Mail className="w-6 h-6 text-[#D1AB10]" />
-                <span className="ml-4 text-gray-300">contact@airyyrides.com</span>
+                <span className="ml-4 text-gray-300">airyyrides@gmail.com</span>
               </div>
               <div className="flex items-center">
                 <Phone className="w-6 h-6 text-[#D1AB10]" />
-                <span className="ml-4 text-gray-300">+1 (555) 123-4567</span>
+                <span className="ml-4 text-gray-300">+91 98269-77757</span>
               </div>
               <div className="flex items-center">
                 <MapPin className="w-6 h-6 text-[#D1AB10]" />
-                <span className="ml-4 text-gray-300">123 Bike Street, City, State 12345</span>
+                <span className="ml-4 text-gray-300">160/4, Bholaram Ustad Marg, Indrapuri Colony, Bhanwar Kuwa, Indore, Madhya Pradesh 452001</span>
               </div>
             </div>
           </div>

@@ -4,22 +4,22 @@ import { Star } from 'lucide-react';
 const Testimonials = () => {
   const testimonials = [
     {
-      name: "Sarah Johnson",
+      name: "Sanket Sharma",
       role: "Daily Commuter",
-      image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80",
-      content: "AiRYYRIDES has transformed my daily commute. The bikes are always in perfect condition, and the service is exceptional."
+      image: "https://lh3.googleusercontent.com/a-/ALV-UjUmgFB2DIm67Ol_97Cb_ptX_oiikcK545btGX9ZniVfhzA=w75-h75-p-rp-mo-br100",
+      content: "Airyy rides se bike rent kiya indore main easy process, kam daam aur lajawaab experience. Indore main bike rent chahiye toh airyy rides hi sahi simple sasta aur top notch service"
     },
     {
-      name: "Michael Chen",
+      name: "Isha Patil",
       role: "Weekend Explorer",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80",
-      content: "The variety of bikes available is impressive. Perfect for weekend adventures and exploring the city."
+      image: "https://lh3.googleusercontent.com/a-/ALV-UjXcowtM4bBa1sVHxOY6RQ5LaltCzfOLs_FNF176yj92AmWZ=w60-h60-p-rp-mo-br100",
+      content: "Indore Ghoomne ka plan ? Toh Airyy rides se bike rent karlo super quick, budget friendly aur full dhamaal!"
     },
     {
-      name: "Emma Davis",
+      name: "Anubhav Singh",
       role: "Fitness Enthusiast",
-      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80",
-      content: "High-quality bikes and fantastic customer service. AiRYYRIDES has become an essential part of my fitness routine."
+      image: "https://lh3.googleusercontent.com/a-/ALV-UjWlFmTmuY3xuEuL4cLfgX0a_EBxuUylmbNBcGsEu62j5kY=w75-h75-p-rp-mo-br100",
+      content: "Best service among all the dealers available in indore. One of the best bikes. Great Experience."
     }
   ];
 
@@ -31,7 +31,7 @@ const Testimonials = () => {
             What Our <span className="text-[#D1AB10]">Riders Say</span>
           </h2>
           <p className="text-gray-300 text-lg max-w-2xl mx-auto">
-            Don't just take our word for it - hear from our satisfied customers.
+          Don't just take our word for it hear from our satisfied riders who have experienced the joy of AiRYY Rides.
           </p>
         </div>
         

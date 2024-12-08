@@ -4,28 +4,28 @@ const vehicles = [
   {
     id: 1,
     image: 'https://airyyrides.com/assets/ActivaFour-KdLJoN3U.png',
-    name: 'Electric Sport Bike'
+    name: ''
   },
   {
     id: 2,
     image: 'https://airyyrides.com/assets/ActivaOne-DdUQqsAd.png',
-    name: 'Mountain E-Bike'
+    name: ''
   },
   {
     id: 3,
-    image: 'https://airyyrides.com/assets/ActivaOne-DdUQqsAd.png',
-    name: 'Urban Electric Car'
-  },
-  {
-    id: 4,
     image: 'https://airyyrides.com/assets/ActivaTwo-BTCcBJt9.png',
-    name: 'Electric Scooter'
-  },
-  {
-    id: 5,
-    image: 'https://airyyrides.com/assets/ActivaOne-DdUQqsAd.png',
-    name: 'Luxury Electric Car'
+    name: ' '
   }
+  // {
+  //   id: 4,
+  //   image: 'https://airyyrides.com/assets/ActivaOne-DdUQqsAd.png',
+  //   name: 'Electric Scooter'
+  // },
+  // {
+  //   id: 5,
+  //   image: 'https://airyyrides.com/assets/ActivaOne-DdUQqsAd.png',
+  //   name: 'Luxury Electric Car'
+  // }
 ];
 
 export function ImageCarousel() {
@@ -67,7 +67,7 @@ export function ImageCarousel() {
                   src={image}
                   alt={name}
                   className="w-full h-full object-cover"
-                />
+                /> 
                 <div className="absolute bottom-0 left-0 right-0  p-4">
                   <h3 className="text-white text-xl font-semibold text-center">
                     {name}
