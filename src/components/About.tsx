@@ -6,7 +6,8 @@ const About = () => {
           <div className="relative">
             <div className="rounded-lg overflow-hidden">
               <img
-                src="./Assets/airyyridesoffice.jpg"
+                src="https://content.jdmagicbox.com/comp/indore/a1/0731px731.x731.230518051336.h5a1/catalogue/airyy-rides-bhawar-kuan-indore-bike-on-rent-pqsqbi4a1t.jpg"
+                alt="Airyyrides Bike"
                 className="w-full h-[500px] object-cover"
               />
             </div>
