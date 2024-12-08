@@ -6,7 +6,7 @@ const About = () => {
           <div className="relative">
             <div className="rounded-lg overflow-hidden">
               <img
-                src="./Public/Assets/airyyridesoffice.jpg"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj3C8fGTUB2zvhzBMvxYYC436yo9QxzPdohA&s"
                 className="w-full h-[500px] object-cover"
               />
             </div>
